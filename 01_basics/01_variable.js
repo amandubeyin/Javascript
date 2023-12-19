@@ -42,3 +42,25 @@ Always use const if the type should not be changed (Arrays and Objects)
 
 Only use let if you can't use const
 */
+
+
+
+/* Block Scope --> let & const
+These two keywords provideed Block Scope in JavaScript:
+Variables declared inside a { } block cannot be accessed from outside the block.
+*/
+{
+    let x = 2;
+    const y = 3;
+}
+// x can NOT be used here
+
+
+
+/* Global Scope --> var
+Variables declared with var inside a { } block can be accessed from outside the block.
+*/
+{
+    var x = 2;
+}
+// x CAN be used here
