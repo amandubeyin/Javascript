@@ -5,8 +5,9 @@
 -> JavaScript is case-sensitive. So y and Y are different variables.
 -> Keywords cannot be used as variable names.
 -> Variables can be declared using the var, let, or const keywords.
-
 */
+
+/* JavaScript variables can be declared into 4 ways. */
 
 w=5;  //Automatic
 var x=6; // using Var
@@ -14,8 +15,6 @@ let y=7; // using let
 const z=8; // using const
 
 console.table([w,x,y,z]);
-
-/* JavaScript variables can be declared into 4 ways. */
 
 
 //The var keyword was used in all JavaScript code from 1995 to 2015.
