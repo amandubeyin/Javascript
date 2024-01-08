@@ -1,4 +1,10 @@
 let score = "33";
+// Convert into Number
+// score = null -> convert into 0
+// score = undefined -> convert into NaN(Not A Number)
+// score = true -> convert into 1
+// score = false -> convert into 0
+// score = "Aman" -> convert into NaN
 console.log(typeof(score)); //String
 console.log(score); //"33"
 const valueInNumber = Number(score); //Convert into number
@@ -16,6 +22,7 @@ console.log(nxtScore); //"33abd"
 const nxtValueInNumber = Number(nxtScore); //Convert into number
 console.log(typeof(nxtValueInNumber));  //number
 console.log(nxtValueInNumber); // NaN -> Not A Number
+
 
 
 //  Numbers and the '+' operator
